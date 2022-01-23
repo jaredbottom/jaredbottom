@@ -1,7 +1,6 @@
  " vim with all enhancements
 source $vimruntime/vimrc_example.vim
 
-
 " resizing splits
 nnoremap <Leader>+ :res +5<CR>
 nnoremap <Leader>- :res -5<CR>
@@ -70,4 +69,6 @@ endfunction
 
 
 " initialize gruvbox(I think)
-" autocmd vimenter * ++nested colorscheme gruvbox
+set t_Co=256
+syntax on
+autocmd VimEnter * ++nested colorscheme gruvbox
