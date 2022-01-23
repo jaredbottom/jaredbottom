@@ -68,7 +68,8 @@ function MyDiff()
 endfunction
 
 
-" initialize gruvbox(I think)
+" initialize gruvbox
+" ~\vimfiles\pack\default\start\gruvbox is folder location
 set t_Co=256
 syntax on
 autocmd VimEnter * ++nested colorscheme gruvbox
